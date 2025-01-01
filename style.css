@@ -8,4 +8,27 @@
 
 body{
     font-family: BNazanin;
+    background-color: antiquewhite;
+}
+
+#header{
+    background-color: rgb(255, 221, 177);
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#header ul li{
+    margin-right: 100px;
+}
+
+#header ul li a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+    font-size: xx-large;
 }
